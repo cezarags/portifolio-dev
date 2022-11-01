@@ -1,0 +1,279 @@
+a{
+    color: brown;
+}
+
+body{
+    background-image: url(../images/plano-fundo9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family:'Open Sans', sans-serif;
+    color: azure;
+    font-size: 18px;
+
+    border-radius: 3px;
+    border-color: aqua;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    padding: 30px;
+}
+
+.cartao{
+    
+    border-radius: 10px;
+    border: 1px solid #A9A9A9;
+    width: 600px;
+    overflow: hidden;
+    
+}
+
+.abas img{
+    width: 30px;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+
+    border-radius: 50px;
+    border: 4px solid #21130d
+}
+
+
+.cartao .minhas-informacoes .nome{
+
+   font-size: 26px;
+   color: #21130d;
+}
+
+.cartao .minhas-informacoes .cargo{
+
+    font-size: 20px;
+    color: #b8bbc5;
+    border-bottom: 1px solid #b8bbc5;
+    margin-bottom: 10px;
+    
+ }
+
+
+
+ .cartao .abas{
+    display: flex;
+    justify-content: center;
+   
+ }
+
+ .cartao .abas .aba{
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-colore 0.2s ease-in-out;
+    margin: 10px;
+   
+ }
+
+ .cartao .abas .aba img{
+    width: 30px;
+ }
+
+ .conteudo{
+   
+ }
+
+
+ .cartao .abas .aba.selecionada{
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+    background-color: #f8f8ff
+    
+   
+ }
+
+ .cartao .abas .aba{
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+    background-color: #f8f8ff;
+   
+ }
+
+
+
+ .cartao .abas .aba:hover{
+    background-color: #fbf7f7;
+   
+ }
+
+ .informacoes-abas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .informacoes-abas .informacao{
+    padding: 15px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+    min-width: 575px;
+    
+   
+ }
+ .informacoes-abas .informacao.selecionada{
+    display:block ;
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+    max-width: 575px;
+    
+ }
+
+ .informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+    background-color: rgb(4,47,102);
+    min-height: 40px;
+    padding: 6px ;
+   
+
+ }
+
+ .informacoes-abas .descricao{
+    font-size: 22px;
+    max-height: 240px;
+    color: #111111;
+    font-style: italic;
+    overflow: auto;
+   
+    
+ }
+ .informacoes-abas .informacao .descricao span{
+    color: black;
+    font-style:italic;
+ }
+
+
+ .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 200px;
+    overflow: auto;
+
+ }
+
+ .redes-sociais li a{
+   border: 1px solid #111111;
+   border-radius: 6px;
+    width: 200px;
+    display: block;
+    color: #21130d;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+ }
+
+ .redes-sociais li a:hover{
+    opacity: 0.8;
+ }
+ .conhecimentos h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .conhecimentos .topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    max-width: 700px;
+  
+
+ }
+
+ .conhecimentos .sub-titulo-stack{
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+    background-color: rgb(4,47,102);
+    padding: 10px;
+    
+ }
+
+
+ .conhecimentos .abas-footer{
+   
+   max-height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
+ .abas-footer .rede{
+   display: inline;
+   margin: auto;
+ }
+
+
+ .abas-footer img{
+   border: 1px solid #A9A9A9;
+   border-radius: 3px;
+   max-width: 110px;
+   height: 90px;
+   width: 90px;
+   cursor: pointer;
+   margin-bottom: 10px;
+ }
+
+ .contato{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#DCDCDC;
+   max-height: 114px;
+   
+ }
+
+ .contato .whatsApp img{
+   max-width: 150px;
+   max-height: 120px;
+   margin-right: 60px;
+   margin-left: 110px;
+   margin-top: 30px;
+  
+ }
+
+ .contato .marca .autor span{
+   color: #FF0000;
+ }
+
+ .contato .marca .autor{
+   display: flex;
+   text-align: right;
+   justify-content: right;
+   
+ }
+ 
+ h5{
+   color: #21130d;
+   margin-top: 90px;
+  
+ }
